@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #0f5a52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalho {
+  width: 100%;
+  text-align: right;
+  padding-right: 40px;
+  margin-bottom: 10px;
+}
+
+.voltar {
+  color: #000000;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.conteudo-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.esquerda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fone {
+  position: absolute;
+  width: 380px;
+  z-index: 1;
+}
+
+.tituloini {
+  position: relative;
+  z-index: 2;
+  color: #bfa3cc; 
+  font-size: 46px;
+  font-style: italic;
+  line-height: 1.2;
+  text-shadow: 2px 2px 0px #2d1630;
+  -webkit-text-stroke: 1px #2d1630;
+  max-width: 500px;
+}
+
+.bemvindo {
+  color: #c0d69b;
+  font-size: 34px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.legenda {
+  color: #d1cca8;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #1c0e22;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.nomeweb {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.formulario {
+  width: 100%;
+  max-width: 420px;
+}
+
+.login {
+  color: #000;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.campo {
+  width: 100%;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  background: #f2ede7;
+  font-size: 20px;
+  outline: none;
+}
+
+.entrar {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+  padding: 14px;
+  border: none;
+  border-radius: 35px;
+  background: #f2ede7;
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}

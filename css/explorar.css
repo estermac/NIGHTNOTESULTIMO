@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0E4B43;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app-container {
+  width: 100vw;
+  min-height: 100vh;
+  background: #0E4B43;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.topbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  color: #fff; 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo-circle img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 20px;
+}
+
+.back-button {
+  cursor: pointer;
+  color: #fff;
+}
+
+.heart {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.hero {
+  width: 100%;
+  background: #4A0E4E; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 25px 30px;
+}
+
+.hero h1 {
+  font-size: 42px; 
+  color: #FFF;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+}
+
+.recomendacao-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.subtitulo-semana {
+  color: #FFF;
+  font-size: 18px;
+  text-align: right;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.capas-carrossel {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.capas-carrossel img {
+  width: 80px;
+  height: 110px;
+  object-fit: cover;
+}
+
+.carousel-arrow {
+  color: #2c0530;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 10px;
+  letter-spacing: -4px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 30px;
+  flex: 1;
+}
+
+.left-side {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.section h2 {
+  color: #041816;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  position: relative;
+  width: 125px;
+  height: 125px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .play-btn {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  width: 28px;
+  height: 28px;
+  background: #FFF;
+  color: #000;
+  border-radius: 50%;
+  border: none;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+.sidebar-title {
+  background: #FDFBF0;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: fit-content;
+  font-family: sans-serif;
+}
+
+.ranking {
+  background: #FDFBF0;
+  width: 100%;
+  max-width: 480px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rankartista {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.artista-foto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #000;
+}
+
+.rank-detalhes {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.rank-nome {
+  min-width: 70px;
+}
+
+.ranking-chevron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+  cursor: pointer;
+}
